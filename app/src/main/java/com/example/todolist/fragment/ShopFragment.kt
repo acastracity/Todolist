@@ -20,7 +20,7 @@ class ShopFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_shop, container, false)
         recyclerView = view.findViewById(R.id.recyclerView)
         recyclerView.setHasFixedSize(true)
-        recyclerView.layoutManager = GridLayoutManager(requireContext() , 2) // requireContext() == this
+        recyclerView.layoutManager = GridLayoutManager(requireContext() , 3) // requireContext() == this
 
         ShopItemList = ArrayList()
         addDataToList()

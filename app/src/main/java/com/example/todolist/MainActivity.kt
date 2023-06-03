@@ -11,6 +11,7 @@ import com.example.todolist.R
 import com.example.todolist.fragment.MainFragment
 import com.example.todolist.fragment.QuestionFragment
 import com.example.todolist.fragment.ResultFragment
+import com.example.todolist.fragment.ShopFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -73,7 +74,7 @@ class MainActivity : AppCompatActivity() {
 
 class ViewpagerFragmentAdapter(fragmentActivity: FragmentActivity): FragmentStateAdapter(fragmentActivity) {
 
-    private val fragmentList = listOf<Fragment>(MainFragment(), QuestionFragment(), ResultFragment())
+    private val fragmentList = listOf<Fragment>(MainFragment(), QuestionFragment(), ResultFragment(),ShopFragment())
 
     override fun getItemCount(): Int {
         return fragmentList.size
