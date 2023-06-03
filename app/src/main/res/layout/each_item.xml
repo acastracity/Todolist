@@ -19,7 +19,7 @@
             android:layout_width="0dp"
             android:layout_height="150dp"
             android:scaleType="fitXY"
-            android:src="@drawable/chair"
+            android:src="@drawable/itm_chair"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" /> //layout_width, height 부분은 보기좋게 수정해도 될듯
@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:text="Chair"
+            android:text="chair"
             android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold"
