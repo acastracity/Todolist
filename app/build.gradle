@@ -35,6 +35,8 @@ android {
 
 dependencies {
     implementation 'androidx.core:core-ktx:+'
+    implementation 'androidx.core:core-ktx:+'
+    implementation 'androidx.core:core-ktx:+'
 
     // Kotlin
     def nav_version = "2.5.3"
